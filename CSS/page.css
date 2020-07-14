@@ -1,0 +1,10 @@
+body {
+	background-color: rgb(245, 245, 245);
+	color: rgb(83, 83, 83);
+	font-size: 13px;
+	font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+	height: auto;
+}
