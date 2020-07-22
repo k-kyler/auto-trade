@@ -40,7 +40,7 @@ function shrinkEffect() {
 	}
 
 	else {
-		document.getElementById('header-config').style.padding = "19px 0";
+		document.getElementById('header-config').style.padding = "14px 0";
 		document.getElementById('header-config').style.backgroundColor = 'rgba(0, 0, 0, .4823529411764706)';
 		document.getElementById('header-config').style.position = 'absolute';
 	}

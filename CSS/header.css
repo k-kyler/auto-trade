@@ -1,8 +1,5 @@
 .header-config {
-	padding: 19px 0;
-	position: absolute;
 	z-index: 99;
-	background-color: rgba(0, 0, 0, .4823529411764706);
 }
 
 .header-config, .navbar-brand, .list-options, .add-car-link {
@@ -102,6 +99,7 @@
 		position: relative !important;
 		background-color: #333333 !important;
 		transition: all 0.4s;
+		padding: 13px !important;
 	}
 
 	.config-mobile {
@@ -139,10 +137,6 @@
 		background-color: rgba(0, 0, 0, .4823529411764706);
 	}
 
-	.config-mobile {
-		justify-content: center !important;
-	}
-
 	.mobile-menu {
 		display: block;
 	}
@@ -175,7 +169,7 @@
 	}
 
 	.header-config {
-		padding: 19px 0;
+		padding: 14px 0;
 		position: absolute;
 		background-color: rgba(0, 0, 0, .4823529411764706);
 	}
@@ -196,7 +190,7 @@
 	}
 
 	.header-config {
-		padding: 19px 0;
+		padding: 14px 0;
 		position: absolute;
 		background-color: rgba(0, 0, 0, .4823529411764706);
 	}
