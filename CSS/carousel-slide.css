@@ -199,14 +199,15 @@
 	}
 
 	.carousel-caption {
-		bottom: 28%;
+		bottom: 35%;
+		left: 13%;
 	}
 	
 	.carousel-control-prev {
-		top: 50%;
+		top: 43%;
 	}
 
 	.carousel-control-next {
-		top: 55%;
+		top: 48%;
 	}
 }
