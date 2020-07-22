@@ -130,12 +130,36 @@
 
 /* Portrait tablet/large phone responsive */
 @media (min-width: 600px) {
-	.mobile-menu {
-		display: none;
+	.mobile-list-options {
+		display: block;
 	}
 
-	.list-options {
-		display: flex;
+	.header-config {
+		position: relative !important;
+		background-color: #333333 !important;
+		transition: all 0.4s;
+	}
+
+	.config-mobile {
+		justify-content: center !important;
+	}
+
+	.mobile-menu {
+		visibility: visible;
+	}
+
+	.mobile-menu a {
+		font-size: 1.5rem;
+	}
+
+	.nav-item {
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	.navbar-brand {
+		padding: 15px;
 	}
 }
 
