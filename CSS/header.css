@@ -135,9 +135,8 @@
 	}
 
 	.header-config {
-		position: relative !important;
-		background-color: #333333 !important;
-		transition: all 0.4s;
+		position: absolute;
+		background-color: rgba(0, 0, 0, .4823529411764706);
 	}
 
 	.config-mobile {
@@ -145,7 +144,7 @@
 	}
 
 	.mobile-menu {
-		visibility: visible;
+		display: block;
 	}
 
 	.mobile-menu a {
@@ -153,9 +152,7 @@
 	}
 
 	.nav-item {
-		visibility: hidden;
-		width: 0;
-		height: 0;
+		display: none;
 	}
 
 	.navbar-brand {
@@ -172,6 +169,16 @@
 	.list-options {
 		display: flex;
 	}
+
+	.nav-item {
+		display: block;
+	}
+
+	.header-config {
+		padding: 19px 0;
+		position: absolute;
+		background-color: rgba(0, 0, 0, .4823529411764706);
+	}
 }
 
 /* Desktop/laptop responsive */
@@ -182,5 +189,15 @@
 
 	.list-options {
 		display: flex;
+	}
+
+	.nav-item {
+		display: block;
+	}
+
+	.header-config {
+		padding: 19px 0;
+		position: absolute;
+		background-color: rgba(0, 0, 0, .4823529411764706);
 	}
 }
