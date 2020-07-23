@@ -1,10 +1,10 @@
-.carousel-item {
-	height: 20%;
-}
-
 .carousel-item img {
 	height: 100%;
 	width: 100%;
+}
+
+.carousel-item {
+	border-style: none;
 }
 
 .fa-dot-circle {
