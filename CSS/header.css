@@ -177,6 +177,19 @@
 	.navbar-brand {
 		padding: 0;
 	}
+
+	.navbar {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.header-col-config-1 {
+		padding-left: 0;
+	}
+
+	.header-col-config-2 {
+		padding-right: 0;
+	}
 }
 
 /* Desktop/laptop responsive */
@@ -201,5 +214,18 @@
 
 	.navbar-brand {
 		padding: 0;
+	}
+
+	.navbar {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.header-col-config-1 {
+		padding-left: 0;
+	}
+
+	.header-col-config-2 {
+		padding-right: 0;
 	}
 }
