@@ -128,6 +128,11 @@
 
 /* Portrait tablet/large phone responsive */
 @media (min-width: 600px) {
+	.mobile-col-config {
+		width: 70%;
+		text-align: center;
+	}
+
 	.mobile-list-options {
 		display: block;
 	}
