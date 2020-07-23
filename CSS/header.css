@@ -150,7 +150,7 @@
 	}
 
 	.navbar-brand {
-		padding: 15px;
+		padding: 0;
 	}
 }
 
@@ -173,6 +173,10 @@
 		position: absolute;
 		background-color: rgba(0, 0, 0, .4823529411764706);
 	}
+
+	.navbar-brand {
+		padding: 0;
+	}
 }
 
 /* Desktop/laptop responsive */
@@ -193,5 +197,9 @@
 		padding: 14px 0;
 		position: absolute;
 		background-color: rgba(0, 0, 0, .4823529411764706);
+	}
+
+	.navbar-brand {
+		padding: 0;
 	}
 }
