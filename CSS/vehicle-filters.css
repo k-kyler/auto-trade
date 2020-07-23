@@ -77,6 +77,10 @@
 	.filter-model, .filter-mileage-button {
 		padding-left: 0;
 	}
+
+	.results-btn {
+		margin-top: 12%;
+	}
 }
 
 /* Desktop/laptop responsive */
@@ -87,5 +91,9 @@
 
 	.filter-model, .filter-mileage-button {
 		padding-left: 0;
+	}
+
+	.results-btn {
+		margin-top: 10%;
 	}
 }
