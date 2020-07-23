@@ -122,11 +122,15 @@
 	}
 	
 	.carousel-control-prev {
-		top: 35%;
+		top: 36%;
 	}
 
 	.carousel-control-next {
-		top: 50%;
+		top: 47%;
+	}
+
+	.carousel-control-prev i, .carousel-control-next i {
+		font-size: 11px;
 	}
 }
 
@@ -149,11 +153,15 @@
 	}
 	
 	.carousel-control-prev {
-		top: 55%;
+		top: 57%;
 	}
 
 	.carousel-control-next {
 		top: 63%;
+	}
+
+	.carousel-control-prev i, .carousel-control-next i {
+		font-size: 12px;
 	}
 }
 
@@ -176,11 +184,15 @@
 	}
 	
 	.carousel-control-prev {
-		top: 50%;
+		top: 53%;
 	}
 
 	.carousel-control-next {
-		top: 57%;
+		top: 58%;
+	}
+
+	.carousel-control-prev i, .carousel-control-next i {
+		font-size: 13px;
 	}
 }
 
@@ -209,5 +221,9 @@
 
 	.carousel-control-next {
 		top: 48%;
+	}
+
+	.carousel-control-prev i, .carousel-control-next i {
+		font-size: 19px;
 	}
 }
