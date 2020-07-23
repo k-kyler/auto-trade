@@ -1,0 +1,91 @@
+.vehicle-filters-config {
+	background-color: rgb(255, 255, 255);
+	padding: 25px 40px 40px 40px;
+	z-index: 2;
+	margin-top: -1%;
+	position: relative;
+}
+
+.vehicle-filters-config label {
+	font-size: 12px;
+	font-weight: 700;
+	margin-bottom: 5px;
+	color: rgb(44, 57, 102);
+}
+
+.vehicle-filters-config label, .vehicle-filters-config select {
+	width: 100%;
+}
+
+.vehicle-filters-config select {
+	color: rgb(153, 153, 153);
+	border-radius: 2px;
+	border-color: rgb(233, 233, 233);
+	box-shadow: 1px 0px 3px 0px rgba(0, 0, 0, 0.11);
+	cursor: pointer;
+	height: 40px;
+	padding-left: 15px;
+	padding-right: 20px;
+}
+
+.vehicle-filters-config option {
+	padding: 0 2px 1px 2px;
+}
+
+.filter-make, .filter-price-year, .filter-model, .filter-mileage-button {
+	padding: 6.5px 13px;
+}
+
+.results-btn {
+	background-color: rgb(48, 57, 104);
+	color: white;
+	font-weight: 700;
+	text-transform: uppercase;
+	width: 100%;
+	border-color: white;
+	height: 64%;
+	margin-top: 10%;
+	border-radius: 0;
+	border-width: 0;
+}
+
+
+
+/*----- Responsive Options -----*/
+
+/* Small phone responsive */
+@media (max-width: 600px) {
+	.vehicle-filters-config {
+		width: 92%;
+		margin-top: -3%;
+	}
+}
+
+/* Portrait tablet/large phone responsive */
+@media (min-width: 600px) {
+	.results-btn {
+		margin-top: 6%;
+	}
+}
+
+/* Landscape tablet/large phone responsive */
+@media (min-width: 1024px) { 
+	.filter-make, .filter-price-year {
+		padding-right: 0;
+	}
+
+	.filter-model, .filter-mileage-button {
+		padding-left: 0;
+	}
+}
+
+/* Desktop/laptop responsive */
+@media (min-width: 1200px) {
+	.filter-make, .filter-price-year {
+		padding-right: 0;
+	}
+
+	.filter-model, .filter-mileage-button {
+		padding-left: 0;
+	}
+}
