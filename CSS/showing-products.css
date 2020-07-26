@@ -1,0 +1,117 @@
+.showing-products .card a:hover {
+	opacity: 0.8;
+	transition: all 0.5s;
+}
+
+.card-main {
+	background-color: rgb(245, 57, 54);
+	color: white;
+}
+
+.card-main-title-1 {
+	font-size: 24px;
+	font-family: Montserrat;
+}
+
+.card-main-title-2 {
+	font-size: 18px;
+	font-family: Montserrat;
+}
+
+.card-break-line {
+	border-bottom-width: 1px;
+	border-bottom-color: rgb(219, 45, 42);
+	border-bottom-style: solid;
+}
+
+.card-title {
+	color: rgb(12, 12, 12);
+	font-size: 14px;
+	font-family: Montserrat;
+	font-weight: 700;
+}
+
+.card-description {
+	color: rgb(153, 153, 153);
+	font-size: 10px;
+}
+
+
+
+/*----- Responsive Options -----*/
+
+/* Small phone responsive */
+@media (max-width: 600px) {
+	.showing-products-mobile-config {
+		margin-bottom: 8%;
+	}
+}
+
+/* Portrait tablet/large phone responsive */
+@media (min-width: 600px) {
+	.card-title {
+		font-size: 10px;
+	}
+
+	.card-title-1 {
+		font-size: 15px;
+	}
+
+	.card-title-2 {
+		font-size: 9px;
+	}
+
+	.card-description {
+		font-size: 8px;
+	}
+
+	.card-main-description {
+		font-size: 10px;
+	}
+}
+
+/* Landscape tablet/large phone responsive */
+@media (min-width: 1024px) { 
+	.card-title {
+		font-size: 11px;
+	}
+
+	.card-title-1 {
+		font-size: 18px;
+	}
+
+	.card-title-2 {
+		font-size: 12px;
+	}
+
+	.card-description {
+		font-size: 9px;
+	}
+
+	.card-main-description {
+		font-size: 12px;
+	}
+}
+
+/* Desktop/laptop responsive */
+@media (min-width: 1200px) {
+	.card-title {
+		font-size: 14px;
+	}
+
+	.card-title-1 {
+		font-size: 24px;
+	}
+
+	.card-title-2 {
+		font-size: 18px;
+	}
+
+	.card-description {
+		font-size: 10px;
+	}
+
+	.card-main-description {
+		font-size: 13px;
+	}
+}
