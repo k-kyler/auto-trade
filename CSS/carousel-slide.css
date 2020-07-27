@@ -11,13 +11,13 @@
 	font-size: 20px;
 }
 
-.carousel-control-prev {
+.prev-config {
 	left: 80%;
 	height: 30px;
 	top: 50%;
 }
 
-.carousel-control-next {
+.next-config {
 	right: 5%;
 	top: 55%;
 	height: 30px;
@@ -121,15 +121,15 @@
 		bottom: 10%;
 	}
 	
-	.carousel-control-prev {
+	.prev-config {
 		top: 36%;
 	}
 
-	.carousel-control-next {
+	.next-config {
 		top: 47%;
 	}
 
-	.carousel-control-prev i, .carousel-control-next i {
+	.prev-config i, .next-config i {
 		font-size: 11px;
 	}
 }
@@ -152,15 +152,15 @@
 		bottom: 10%;
 	}
 	
-	.carousel-control-prev {
+	.prev-config {
 		top: 57%;
 	}
 
-	.carousel-control-next {
+	.next-config {
 		top: 63%;
 	}
 
-	.carousel-control-prev i, .carousel-control-next i {
+	.prev-config i, .next-config i {
 		font-size: 12px;
 	}
 }
@@ -183,15 +183,15 @@
 		bottom: 20%;
 	}
 	
-	.carousel-control-prev {
+	.prev-config {
 		top: 53%;
 	}
 
-	.carousel-control-next {
+	.next-config {
 		top: 58%;
 	}
 
-	.carousel-control-prev i, .carousel-control-next i {
+	.prev-config i, .next-config i {
 		font-size: 13px;
 	}
 }
@@ -215,15 +215,15 @@
 		left: 13%;
 	}
 	
-	.carousel-control-prev {
+	.prev-config {
 		top: 43%;
 	}
 
-	.carousel-control-next {
+	.next-config {
 		top: 48%;
 	}
 
-	.carousel-control-prev i, .carousel-control-next i {
+	.prev-config i, .next-config i {
 		font-size: 19px;
 	}
 }
