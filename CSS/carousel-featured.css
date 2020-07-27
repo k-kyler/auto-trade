@@ -1,0 +1,93 @@
+.carousel-featured {
+	background-color: rgb(153, 153, 153);
+}
+
+.carousel-featured-title {
+	color: white;
+	font-size: 18px;
+	font-family: "Roboto Slab";
+	font-weight: 600;
+	text-align: center;
+}
+
+.carousel-featured .card {
+	background-color: rgb(153, 153, 153);
+	border-style: none;
+}
+
+.carousel-featured .card-body div {
+	color: white;
+	font-size: 13px;
+	pointer-events: none;
+}
+
+.carousel-featured .card-description {
+	color: rgb(204, 204, 204) !important;
+	font-size: 10px !important;
+}
+
+.carousel-featured .card:hover {
+	opacity: 0.8;
+	transition: all 0.5s;
+}
+
+.prev-featured-config, .next-featured-config {
+	width: 3%;
+	bottom: 16%;
+}
+
+.prev-featured-config {
+	left: 1%;
+}
+
+.next-featured-config {
+	right: 1%;
+}
+
+
+
+/*----- Responsive Options -----*/
+
+/* Small phone responsive */
+@media (max-width: 600px) {
+	.prev-featured-config, .next-featured-config {
+		bottom: 25%;
+	}
+}
+
+/* Portrait tablet/large phone responsive */
+@media (min-width: 600px) {
+	.carousel-featured .card-body div {
+		font-size: 9px;
+	}
+
+	.carousel-featured .card-description {
+		font-size: 8px !important;
+	}
+
+	.prev-featured-config, .next-featured-config {
+		bottom: 65%;
+	}
+}
+
+/* Landscape tablet/large phone responsive */
+@media (min-width: 1024px) { 
+	.prev-featured-config, .next-featured-config {
+		bottom: 35%;
+	}
+}
+
+/* Desktop/laptop responsive */
+@media (min-width: 1200px) {
+	.carousel-featured .card-body div {
+		font-size: 13px;
+	}
+
+	.carousel-featured .card-description {
+		font-size: 10px !important;
+	}
+
+	.prev-featured-config, .next-featured-config {
+		bottom: 20%;
+	}
+}
