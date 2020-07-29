@@ -1,0 +1,103 @@
+.new-car-left, .new-car-right {
+	text-transform: uppercase;
+}
+
+.new-car-title {
+	font-size: 30px;
+	font-family: Roboto Slab;
+}
+
+.new-car-left {
+	color: rgb(255, 102, 0);
+}
+
+.new-car-right {
+	color: rgb(51, 51, 51);
+}
+
+.new-car-content img {
+	filter: brightness(60%);
+}
+
+.new-car-content img:hover {
+	filter: brightness(100%);
+	transition: all 0.5s;
+}
+
+.new-car-content a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.new-car-image-content {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.new-car-image-content-1 {
+	font-size: 28px;
+	font-weight: 200;
+}
+
+.new-car-image-content-2 {
+	font-size: 14px;
+	font-weight: 200;
+}
+
+
+
+/*----- Responsive Options -----*/
+
+/* Small phone responsive */
+@media (max-width: 600px) {
+	/*No need*/
+}
+
+/* Portrait tablet/large phone responsive */
+@media (min-width: 600px) {
+	.new-car-title {
+		font-size: 25px;
+	}
+
+	.new-car-image-content-1 {
+		font-size: 20px;
+	}
+
+	.new-car-image-content-2 {
+		font-size: 13px;
+	}
+}
+
+/* Landscape tablet/large phone responsive */
+@media (min-width: 1024px) { 
+	.new-car-title {
+		font-size: 27px;
+	}
+
+	.new-car-image-content-1 {
+		font-size: 22px;
+	}
+
+	.new-car-image-content-2 {
+		font-size: 15px;
+	}
+}
+
+/* Desktop/laptop responsive */
+@media (min-width: 1200px) {
+	.new-car-title {
+		font-size: 30px;
+	}
+
+	.new-car-image-content-1 {
+		font-size: 28px;
+	}
+
+	.new-car-image-content-2 {
+		font-size: 14px;
+	}
+}
