@@ -1,0 +1,130 @@
+.footer {
+	background-color: rgb(240, 243, 245);
+	color: rgb(0, 0, 0);
+	font-family: Montserrat;
+}
+
+.footer-menu ul {
+	list-style-type: none;
+	display: flex;
+	padding-inline-start: 0;
+	font-size: 12px;
+}
+
+.footer-menu li:first-child {
+	font-weight: 600;
+}
+
+.footer li a:hover {
+	color: rgb(244, 47, 43);
+}
+
+.footer-vehicles-title, .footer-trade-title, .footer-services-title, .footer-help-title {
+	font-size: 14px;
+}
+
+.footer-vehicles ul, .footer-trade ul, .footer-services ul, .footer-help ul {
+	list-style-type: none;
+	font-size: 12px;
+	padding-inline-start: 0;
+}
+
+.footer-menu a, .footer-vehicles a, .footer-trade a, .footer-services a, .footer-help a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+.footer-break-line {
+	border-top-color: rgb(229, 229, 229);
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+.footer-socialnetworks ul {
+	list-style-type: none;
+	display: flex;
+	padding-inline-start: 0;
+	justify-content: center;
+}
+
+.footer-socialnetworks a {
+	text-decoration: none;
+	color: rgb(12, 12, 12);
+	font-size: 14px;
+}
+
+.footer-copyright {
+	color: #818282;
+	font-size: 10px;
+	text-align: center;
+}
+
+
+
+/* Small phone responsive */
+@media (max-width: 600px) {
+	.footer-copyright {
+		font-size: 10px;
+	}
+
+	.footer-socialnetworks a {
+		font-size: 14px;
+	}
+
+	.footer-vehicles ul, .footer-trade ul, .footer-services ul, .footer-help ul {
+		font-size: 12px;
+	}
+
+	.footer-vehicles-title, .footer-trade-title, .footer-services-title, .footer-help-title {
+		font-size: 14px;
+	}
+
+	.footer-menu ul {
+		font-size: 12px;
+	}
+
+	.footer-socialnetworks ul {
+		justify-content: space-between;
+	}
+
+	.footer-apps img {
+		margin-bottom: 10px;
+	}
+}
+
+/* Portrait tablet/large phone responsive */
+@media (min-width: 600px) {
+	.footer-apps img {
+		margin-bottom: 10px;
+	}
+}
+
+/* Landscape tablet/large phone responsive */
+@media (min-width: 1024px) { 
+	.footer-apps img {
+		margin-bottom: 10px;
+	}
+}
+
+/* Desktop/laptop responsive */
+@media (min-width: 1200px) {
+	.footer-copyright {
+		font-size: 10px;
+	}
+
+	.footer-socialnetworks a {
+		font-size: 14px;
+	}
+
+	.footer-vehicles ul, .footer-trade ul, .footer-services ul, .footer-help ul {
+		font-size: 12px;
+	}
+
+	.footer-vehicles-title, .footer-trade-title, .footer-services-title, .footer-help-title {
+		font-size: 14px;
+	}
+
+	.footer-menu ul {
+		font-size: 12px;
+	}
+}
