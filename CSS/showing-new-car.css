@@ -24,6 +24,7 @@
 .showing-new-car-colors p {
 	color: #2F2F2F;
 	font-size: 15px;
+	pointer-events: none;
 	font-family: Montserrat;
 	text-align: center;
 }
